@@ -7,9 +7,9 @@ const router = Router();
 router.get('/', pageController.home );
 
 router.get('/dogs', pageController.dogs );
-router.get('/dogs', pageController.cats );
-router.get('/dogs', pageController.fishes );
+router.get('/cats', pageController.cats );
+router.get('/fishes', pageController.fishes );
 
-router.get('/dogs', searchController.search );
+router.get('/search', searchController.search );
 
 export default router;
